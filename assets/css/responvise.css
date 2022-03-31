@@ -1,0 +1,111 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.lg-10 {
+    flex: 0 0 auto;
+    width: 83.33333%;
+}
+
+.lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333%;
+}
+
+.lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.lg-5 {
+    flex: 0 0 auto;
+    width: 41.66667%;
+}
+
+.lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+}
+
+.lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.lg-2 {
+    flex: 0 0 auto;
+    width: 16.66667%;
+}
+
+.py {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
